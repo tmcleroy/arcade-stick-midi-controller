@@ -1,1 +1,3 @@
 # arcade-stick-midi-controller
+
+MIDI controller script for an arduino running in an old arcade stick with 8 face buttons for playing notes, two buttons on the back for changing active octave range, and joystick octave changing. The joystick up and down directions are mapped so they change the current octave when you’re holding up or down, while the two buttons on the back shift the 3 octaves available out of a total of 7. The octave controls are easier to understand if you read the source code (hopefully). It’s powered via the original usb cable from the arcade stick. I also limited the notes to white keys so it’s a little harder to play off sounding notes.
